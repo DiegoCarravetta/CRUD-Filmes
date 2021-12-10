@@ -22,6 +22,9 @@ const filmesController = require("../controllers/filmes.controller");
 // para as próximas rotas, só chamar (se tiver um parâmetro específico, não esquecer de usar o /:id)
 router.get("/get-filmes", filmesController.getFilmesController);
 router.get("/get-by-id/:id", filmesController.getFilmesByIdController);
+router.post("/create", filmesController.createFilmesController);
+router.put("/update/:id", filmesController.updateFilmesController);
+router.delete("/delete/:id", filmesController.deleteFilmesController);
 
 // depois de criar a rota, preciso exportar ela no server para poder usar
 // module.exports é o método usado para exportar funções
