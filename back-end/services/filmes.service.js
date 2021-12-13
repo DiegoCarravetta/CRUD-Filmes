@@ -8,7 +8,7 @@ const filmes = [
         nome: "Venom: Tempo de Carnificina",
         imagem: "https://br.web.img2.acsta.net/pictures/21/05/10/15/32/2425639.png",
         genero: "Ação",
-        nota: "",
+        nota: 10,
         assistido: false
     },
 
@@ -17,7 +17,7 @@ const filmes = [
         nome: "Shang-Chi e a Lenda dos Dez Anéis",
         imagem: "https://br.web.img3.acsta.net/pictures/21/08/05/20/13/2818037.jpg",
         genero: "Ação",
-        nota: "",
+        nota: 10,
         assistido: false
     },
 
@@ -26,7 +26,7 @@ const filmes = [
         nome: "Duna",
         imagem: "https://br.web.img3.acsta.net/c_310_420/pictures/21/09/29/20/10/5897145.jpg",
         genero: "Ação",
-        nota: "",
+        nota: 10,
         assistido: false
     }
 ];
